@@ -24,6 +24,7 @@ Quando estiver executando o projeto, clique no menu para gerar o seu e-mail temp
   - Usando Localstorage
   - Usando Jasmine para realzação dos testes
   - Usando sass
-  
+  - Utilizando service
+
 
 
