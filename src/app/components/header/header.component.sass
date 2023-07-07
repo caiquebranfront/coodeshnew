@@ -1,0 +1,20 @@
+
+
+$container-radius: 20px
+$container-shadow-color: rgba(0, 0, 0, 0.2)
+$container-shadow-size: 10px
+
+.container
+  border-radius: 0
+  box-shadow: 0 0 $container-shadow-size $container-shadow-color
+
+  .row
+    .col-md-6:first-child
+      border-radius: 0 $container-radius 0 0
+
+    .col-md-6:last-child
+      border-radius: 0 0 $container-radius 0
+
+    .img-fluid
+      width: 40%  // Defina a largura desejada para a imagem
+      height: auto // Isso mantém a proporção da imagem e ajusta a altura automaticamente

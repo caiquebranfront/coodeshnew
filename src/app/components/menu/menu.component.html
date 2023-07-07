@@ -1,0 +1,22 @@
+
+<section class="container">
+  <div class="row">
+    <div class="menu-icon" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="menu-container">
+      <div class="menu-vertical" [ngClass]="{ 'open': isMenuOpen }">
+        <a routerLink="/verificar-email" routerLinkActive="active" (click)="toggleMenu()">Criar E-mail</a>
+      </div>
+      <div class="content-container">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+

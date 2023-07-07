@@ -1,0 +1,97 @@
+.text-field
+  display: flex
+  flex-direction: column
+
+  .copy-button
+    background-color: transparent
+    border: 1px solid gray
+    color: gray
+    cursor: pointer
+    align-items: center
+    padding: 5px
+    border-radius: 0 3px 3px 0
+
+    &:hover
+      opacity: 0.8
+
+    .custom-icon
+      width: 16px
+      height: 16px
+      fill: gray
+
+  .label
+    margin-bottom: 10px
+    font-size: 11px
+
+  input[type="text"]
+    background-color: white
+    border: 1px solid gray
+    color: gray
+    padding: 5px
+    margin-bottom: 10px
+
+    &:focus
+      outline: none
+      border-color: gray
+
+.copy-message
+  position: absolute
+  top: 122px
+  background-color: gray
+  color: white
+  padding: 2px 5px
+  border-radius: 3px
+.create-link-button
+    background-color: transparent
+    border: 1px solid gray
+    color: gray
+    cursor: pointer
+    align-items: center
+    padding: 5px
+    border-radius: 0 3px 3px 0
+
+    &:hover
+      opacity: 0.8
+
+    .custom-icon
+      width: 16px
+      height: 16px
+      fill: gray
+
+.countdown-button
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  background-color: #337ab7
+  color: #fff
+  font-size: 12px
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
+  border: none
+  outline: none
+  transition: background-color 0.3s ease
+  margin-left: 10px
+
+  &:hover
+    background-color: #23527c
+
+  &.animate
+    animation: countdown-animation 1s infinite
+
+.auto-refresh-container
+  display: flex
+  align-items: center
+  padding: 0px 50px
+
+  .countdown-button
+    margin-right: 10px
+  .icon-message
+    margin-right: 5px
+  .refresh-button
+    display: flex
+    align-items: center
+
+    .refresh-icon
+      margin-right: 5px
