@@ -14,7 +14,7 @@ Execute `ng build` para compilar o projeto. Os artefatos de compilação serão 
 
 Run `ng test` to execute the unit tests via Jasmine.
 
-## Icializando o projeto
+## Inicializando o projeto
 
 Quando estiver executando o projeto, clique no menu para gerar o seu e-mail temporário que estará gravado no local storage e buscando o email a cada 15 segundos
 
